@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="html5boilerplate" date="20101028">
+    <author user="kahlilsan" name="Kahlil Lechelt" />
+    <copyright>&amp;copy Kahlil Lechelt</copyright>
+    <license>GNU/LGPL</license>
+    <classification type="free" category="other" />
+    <release version="90053" build="22" date="20101028" />
+    <contao minversion="20090019" maxversion="20090019" />
+    <language code="en">
+        <translator user="kahlilsan" name="Kahlil Lechelt" />
+        <searchtags>html5,jquery,html5boilerplate,boilerplate</searchtags>
+        <title>HTML5 Boilerplate</title>
+        <teaser>Contao with jQuery and the HTML5 Boilerplate.</teaser>
+        <description>&lt;p&gt;This extension integrates the HTML5 Boilerplate including the option of using jQuery into Contao. You&#039;ll have the option to set the doctype to HTML5 and you can use the fe_html5_page.tpl and the new moo_ templates in the page layout to basically &quot;jqeryfy&quot; your page and use all the crazy goodness that Paul Irish and his team built into the boilerplate.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Check http://html5boilerplate.com for the lowdown.&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;This is the first version integrating HTML5 Boilerplate 0.9.5, jQuery 1.4.3 and modernizr 1.6.&lt;/p&gt;</releasenotes>
+        <manual link="http://html5boilerplate.com" />
+    </language>
+    <language code="de">
+        <translator user="kahlilsan" name="Kahlil Lechelt" />
+        <searchtags>html5,jquery,html5boilerplate,boilerplate</searchtags>
+        <title>HTML5 Boilerplate</title>
+        <teaser>Contao mit Paul Irishs HTML5 Boilerplate</teaser>
+        <description>&lt;p&gt;Integriert das HTML5 Boilerplate 0.9.5 mit Contao mit jQuery 1.4.3 und modernizr 1.6.&amp;nbsp;&lt;/p&gt;</description>
+        <manual link="http://html5boilerplate.com" />
+    </language>
+</extension>
