@@ -26,11 +26,11 @@
 	<?php echo $this->head; ?>
 
 	<?php echo $this->framework; ?>
-	<link rel="stylesheet" href="system/modules/html5boilerplate/html/css/style.css?v=2"/>
+	<link rel="stylesheet" href="layout/css/style.css?v=2"/>
 	<?php echo $this->stylesheets; ?>
 	
 	<!-- Uncomment if you are specifically targeting less enabled mobile browsers
-  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+  <link rel="stylesheet" media="handheld" href="layout/css/handheld.css?v=2">  -->
 
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="system/layout/html5boilerplate/html/js/libs/modernizr-1.6.min.js"></script>
