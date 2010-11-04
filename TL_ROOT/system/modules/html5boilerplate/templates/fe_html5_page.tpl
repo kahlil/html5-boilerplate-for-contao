@@ -35,9 +35,9 @@
 <div id="wrapper">
 <?php if ($this->header): ?>
 <header>
-	<section class="inside">
+	<div class="inside">
 <?php echo $this->header; ?>
-	</section>
+	</div>
 </header>
 <?php endif; ?>
 <?php echo $this->getCustomSections('before'); ?>
@@ -50,22 +50,22 @@
 <div id="container" class="clearfix">
 <?php if ($this->left): ?>
 <aside id="left">
-	<section class="inside">
+	<div class="inside">
 <?php echo $this->left; ?>
-	</section>
+	</div>
 </aside>
 <?php endif; ?>
 <?php if ($this->right): ?>
 <aside id="right">
-	<section class="inside">
+	<div class="inside">
 <?php echo $this->right; ?>
-	</section>
+	</div>
 </aside>
 <?php endif; ?>
 <div id="main">
-	<section class="inside">
+	<div class="inside">
 <?php echo $this->main; ?>
-	</section>
+	</div>
 <?php echo $this->getCustomSections('main'); ?>
 </div>
 </div>
@@ -73,9 +73,9 @@
 
 <?php if ($this->footer): ?>
 <footer>
-	<section class="inside">
+	<div class="inside">
 <?php echo $this->footer; ?>
-	</section>
+	</div>
 </footer>
 <?php endif; ?>
 
