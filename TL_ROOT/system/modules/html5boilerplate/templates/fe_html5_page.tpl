@@ -9,11 +9,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
-       Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
-
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame. Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<base href="<?php echo $this->base; ?>">
 	<title><?php echo $this->pageTitle; ?> - <?php echo $this->mainTitle; ?></title>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
@@ -21,20 +18,16 @@
 	<meta name="description" content="<?php echo $this->description; ?>"/>
 	<meta name="keywords" content="<?php echo $this->keywords; ?>"/>
 	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php echo $this->robots; ?>
 	<?php echo $this->head; ?>
-
 	<?php echo $this->framework; ?>
 	<link rel="stylesheet" href="layout/css/style.css?v=2"/>
 	<?php echo $this->stylesheets; ?>
-	
 	<!-- Uncomment if you are specifically targeting less enabled mobile browsers
-  <link rel="stylesheet" media="handheld" href="layout/css/handheld.css?v=2">  -->
-
+    <link rel="stylesheet" media="handheld" href="layout/css/handheld.css?v=2">  -->
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="system/layout/html5boilerplate/html/js/libs/modernizr-1.6.min.js"></script>
-
+    <script src="system/layout/html5boilerplate/html/js/libs/modernizr-1.6.min.js"></script>
 </head>
 
 <body id="top"<?php if ($this->class): ?> class="<?php echo $this->class; ?>" <?php endif; if ($this->onload): ?> onload="<?php echo $this->onload; ?>"<?php endif; ?>>
