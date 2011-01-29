@@ -1,6 +1,6 @@
 <!-- scripts concatenated and minified via ant build script-->
-<script src="layout/js/plugins.js"></script>
-<script src="layout/js/script.js"></script>
+<script src="system/modules/html5boilerplate/html/js/plugins.js"></script>
+<script src="system/modules/html5boilerplate/html/js/script.js"></script>
 <!-- end concatenated and minified scripts-->
 
 <!--[if lt IE 7 ]>
