@@ -7,8 +7,6 @@ YUI Profiling: BSD license
 HTML5Doctor CSS reset: Public Domain
 CSS Reset Reloaded: Public Domain
 
-The XHTML5 Extension by Fabian Wolf (http://www.contao.org/erweiterungsliste/view/xhtml5.10000019.de.html): LGPL
-
 Everything else:
 
 The Unlicense http://unlicense.org/ (aka: public domain)
